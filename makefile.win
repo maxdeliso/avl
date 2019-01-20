@@ -1,0 +1,9 @@
+bst_tree_test.exe: bst_tree_test.obj bst_tree.obj
+	link /nologo bst_tree_test.obj bst_tree.obj
+
+bst_tree_test.obj:
+	cl /nologo /c /TC bst_tree_test.c
+
+bst_tree.obj:
+	cl /nologo /W3 /Fabst_tree.asm /c /TC bst_tree.c
+

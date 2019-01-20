@@ -1,0 +1,7 @@
+An implementation of a binary search tree incorporating AVL balancing, together with a test driver.
+
+https://en.wikipedia.org/wiki/AVL_tree
+
+I heavily referenced Knuth's TAOCP Vol 2 while implementing.
+
+Somewhat incongruously, most functions are implemented recursively except for insert.
